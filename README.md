@@ -4,7 +4,7 @@ Very simple REX learning rate scheduler implementation based on paper “REX: Re
 
 Usage 
 ```
-from lr_scheduler import REX_LR
+from rex_lr import REX_LR
 
 lr_scheduler = REX_LR(optimizer, num_epochs=200, min_val = 0.00001, max_val = 0.0005)
 ```
