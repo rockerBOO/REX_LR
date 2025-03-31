@@ -3,10 +3,10 @@
 Very simple REX learning rate scheduler implementation based on paper “REX: Revisiting Budgeted Training with an Improved Schedule" [1].
 
 Usage 
-```
+```python
 from rex_lr import REX_LR
 
-lr_scheduler = REX_LR(optimizer, num_steps=200, min_val = 0.00001, max_val = 0.0005)
+lr_scheduler = REX_LR(optimizer, num_steps=200, min_val=1e-5, max_val=5e-4)
 ```
 Exampple plot for parameters num_epochs=400,min_val =0.00001,max_val=0.0005
 ![download](https://github.com/IvanVassi/REX_LR/blob/af8bab5ad4697889f25dc22453064b856a639f85/sample_img/sample_plot_REX_lr_scheduler.png)
