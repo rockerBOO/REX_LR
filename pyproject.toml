@@ -1,7 +1,13 @@
 [project]
 name = "rex-lr"
 version = "0.1.0"
-description = "Add your description here"
+description = "Reflected Exponential (REX) learning rate scheduler"
 readme = "README.md"
-requires-python = ">=3.10"
-dependencies = []
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "torch",
+]
+
+[tool.ruff]
+line-length=120
