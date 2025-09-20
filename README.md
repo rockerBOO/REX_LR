@@ -2,7 +2,12 @@
 
 Very simple REX learning rate scheduler implementation based on paper “REX: Revisiting Budgeted Training with an Improved Schedule" [1].
 
-Usage 
+## Install 
+```bash
+pip install git+https://github.com/rockerBOO/REX_LR
+```
+
+## Usage 
 ```python
 from rex_lr import REX_LR
 
